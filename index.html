@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project25</title>
+</head>
+<body>
+
+    <h2>Javascript</h2>
+    <div class="bg">
+        <h1>LET</h1>
+        <p id="demo" style="display: none;"> 1. It cannot be accessed without initialization otherwise it will give “reference Error”.<br>
+            2. Declares a block variable</p>
+        
+        <button  type="button" onclick="myfunction()">explore </button>
+        <button type="button"onclick="mefunction()">close</button>
+    </div>
+    <div class="bg1" >
+        <h1>VAR</h1>
+        <p id="demo1"  style="display: none;">1.It can accessed without initialization as its default value is “undefined”.<br>
+            2. declares a variable </p>
+            <button type="button" onclick="mafunction()">explore </button>
+        <button type="button" onclick="mifunction()">close</button>
+
+    </div>
+    <div class="bg2">
+        <h1>CONST</h1>
+        <p id="demo2"  style="display: none;">1. It cannot be  accessed without initialization as it cannot be declared without initialization .<br>
+            2. declares a block  constant</p>
+            <button type="button" onclick="msfunction()">explore </button>
+        <button type="button" onclick="mdfunction()">close</button>
+    </div>
+    <script>
+        function myfunction(){
+            document.getElementById("demo").style.display="block"
+        }
+        function mefunction(){
+            document.getElementById("demo").style.display="none"
+        }
+        function mafunction(){
+            document.getElementById("demo1").style.display="block"    
+        }
+        function mifunction(){
+            document.getElementById("demo1").style.display="none"
+        }
+        function msfunction(){
+            document.getElementById("demo2").style.display="block"
+        }
+        function mdfunction(){
+            document.getElementById("demo2").style.display="none"
+        }
+
+    </script>
+</body>
+
+</html>
